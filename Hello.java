@@ -17,7 +17,7 @@ public class Hello extends HttpServlet {
     out.println("<HEAD><TITLE>Hello, " + name + "</TITLE></HEAD>");
     out.println("<BODY>");
     out.println("Hello, 你好: " + name);
-    
+    out.println("Hello, 你好: " + name);
     out.println("<br><img src=\""+req.getContextPath()+"/images/tomcat.gif\">");
     
     out.println("</BODY></HTML>");
